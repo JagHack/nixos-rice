@@ -1,0 +1,132 @@
+@import "colors.css";
+
+* {
+    font-family: "FiraCode Nerd Font", "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    min-height: 0;
+}
+
+window#waybar {
+    background: @bg;
+    color: @fg;
+    border-radius: 15px;
+    border: 1px solid @accent;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+/* Tooltip — default style */
+/* ── Circular system monitor tooltip for CPU & GPU (other tooltips disabled) ── */
+tooltip {
+    background: rgba(35, 25, 45, 0.95);
+    border: 2px solid @accent;
+    border-radius: 60px;
+    min-width: 120px;
+    min-height: 120px;
+}
+
+tooltip label {
+    font-size: 28px;
+    font-weight: bold;
+    color: @accent;
+}
+
+/* Modules */
+#custom-launcher,
+#workspaces,
+#window,
+#clock,
+#cpu,
+#custom-gpu,
+#memory,
+#pulseaudio,
+#network,
+#battery,
+#tray,
+#custom-notification {
+    background: @bg_alt;
+    padding: 0px 12px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+/* Specific styling */
+#custom-launcher {
+    font-size: 18px;
+    color: @accent;
+    margin-left: 5px;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: @fg;
+    border-radius: 8px;
+}
+
+#workspaces button.active {
+    color: @accent;
+    background: rgba(196, 167, 231, 0.2);
+    border: 1px solid @accent;
+}
+
+#workspaces button.urgent {
+    color: @urgent;
+}
+
+#workspaces button:hover {
+    background: rgba(196, 167, 231, 0.1);
+    border: 1px solid @accent_alt;
+}
+
+#window {
+    background: transparent;
+    border: none;
+}
+
+#clock {
+    color: @accent;
+    background: rgba(196, 167, 231, 0.1);
+    border: 1px solid @accent;
+}
+
+#clock:hover {
+    background: rgba(196, 167, 231, 0.2);
+}
+
+#cpu {
+    color: @info;
+}
+
+#custom-gpu {
+    color: @warning;
+}
+
+#pulseaudio {
+    color: @info;
+}
+
+#network {
+    color: @accent;
+}
+
+#network:hover {
+    background: rgba(196, 167, 231, 0.15);
+    border: 1px solid @accent;
+}
+
+#battery {
+    color: @warning;
+}
+
+#battery.critical {
+    color: @urgent;
+}
+
+#custom-notification {
+    font-size: 16px;
+    color: @accent;
+    margin-right: 5px;
+}

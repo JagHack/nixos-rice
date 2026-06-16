@@ -1,0 +1,15 @@
+# Nix build artifacts
+result
+result-*
+
+# Home Manager backup files
+*.hm-bak
+
+# Secrets / local env (never commit)
+.env
+*.env
+
+# Editor / OS junk
+*.swp
+*~
+.DS_Store

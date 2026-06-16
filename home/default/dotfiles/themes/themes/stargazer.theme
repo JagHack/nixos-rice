@@ -1,0 +1,48 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Theme: Stargazer
+#  Inspired by: anime girl watching the Milky Way over a lake at dusk —
+#               deep midnight navy, vivid cyan galaxy glow, soft violet,
+#               and warm sunset orange burning at the horizon.
+# ─────────────────────────────────────────────────────────────────────────────
+THEME_NAME="Stargazer"
+
+# ── Background levels (darkest → lightest) ───────────────────────────────────
+BG_BASE="0a1628"       # Deep midnight navy — base (play btn text bg)
+BG_DARK="060e1e"       # Deepest night — waybar / swaync / AGS window bg
+BG="0f2038"            # Kitty terminal background — dark midnight blue
+BG_SURFACE="0d1c30"    # Swaync container surface
+BG_MEDIUM="152840"     # Waybar modules / AGS panels
+BG_BLUR="08121e"       # Blur overlay — near-black navy
+BG_HIGH="1a3050"       # Elevated surface — swaync notification cards
+BG_HIGHEST="223a60"    # Highest elevation — swaync action buttons
+BG_HOVER="2a4870"      # Hover state — cobalt blue
+BG_ACTIVE="345880"     # Pressed/active — brighter cobalt
+
+# ── Text / surface colors ────────────────────────────────────────────────────
+SELECTION="1e3a5e"     # Selection highlight — deep blue
+OVERLAY="1a2d48"       # Outline / overlay — dark slate
+BLACK_DIM="111e30"     # ANSI terminal black — near-black navy
+FG="d8e8f8"            # Main foreground — cool starlight blue-white
+FG_MUTED="5a7898"      # Inactive / muted text — blue-gray
+FG_SUBTLE="8aaac8"     # Subtle body text — soft sky blue
+
+# ── Accent colors ────────────────────────────────────────────────────────────
+ACCENT="4ab8e8"        # Primary accent — vivid Milky Way cyan
+ACCENT_ALT="2a8fd4"    # Secondary accent — deeper sky blue
+ACCENT_LIGHT="80d4f8"  # Light accent — bright starlight
+
+# ── Semantic colors ──────────────────────────────────────────────────────────
+URGENT="e87840"        # Error / urgent — sunset orange (horizon glow)
+URGENT_DARK="c05820"   # Darker urgent — deep burnt orange
+WARNING="f5a050"       # Warning — warm gold (cloud edges at dusk)
+INFO="8a60cc"          # Info — galaxy violet (Milky Way purple)
+GREEN="4a9870"         # ANSI green — muted teal (reeds / shoreline)
+CYAN_TERM="6ac8e8"     # ANSI cyan — bright atmospheric cyan
+
+# ── Hyprland borders (Hyprland RRGGBBAA hex format) ─────────────────────────
+BORDER1="4ab8e8ee"          # Active border gradient start — Milky Way cyan
+BORDER2="8a60ccee"          # Active border gradient end — galaxy violet
+BORDER_INACTIVE="1a2d4888"  # Inactive border — dark navy overlay
+
+# ── Wallpaper ────────────────────────────────────────────────────────────────
+WALLPAPER="$HOME/Pictures/wallpapers-jakoolit/wallpapers/Anime-Girl-Night-Sky.jpg"

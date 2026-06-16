@@ -1,0 +1,48 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Theme: Dark Nature
+#  Inspired by: gothic dark forest at night — near-black charcoal,
+#               cool blue-gray misty sky, silver moonlight,
+#               muted forest greens, and pale white flowers.
+# ─────────────────────────────────────────────────────────────────────────────
+THEME_NAME="Dark Nature"
+
+# ── Background levels (darkest → lightest) ───────────────────────────────────
+BG_BASE="0d1014"       # Dark charcoal — base (play btn text bg)
+BG_DARK="080a0c"       # Near-black — waybar / swaync / AGS window bg
+BG="131619"            # Kitty terminal background — dark charcoal
+BG_SURFACE="101318"    # Swaync container surface
+BG_MEDIUM="181c20"     # Waybar modules / AGS panels
+BG_BLUR="0a0d10"       # Blur overlay — almost pure black
+BG_HIGH="1e2328"       # Elevated surface — swaync notification cards
+BG_HIGHEST="252b30"    # Highest elevation — swaync action buttons
+BG_HOVER="2c333a"      # Hover state — dark slate
+BG_ACTIVE="343c44"     # Pressed/active — slightly lighter slate
+
+# ── Text / surface colors ────────────────────────────────────────────────────
+SELECTION="2a3038"     # Selection highlight — dark blue-gray
+OVERLAY="222830"       # Outline / overlay — deep slate
+BLACK_DIM="1a1f24"     # ANSI terminal black — near-black charcoal
+FG="d4d8dc"            # Main foreground — cool silver moonlight
+FG_MUTED="606870"      # Inactive / muted text — dark cool gray
+FG_SUBTLE="9098a0"     # Subtle body text — muted blue-gray
+
+# ── Accent colors ────────────────────────────────────────────────────────────
+ACCENT="7a9ab0"        # Primary accent — muted steel blue (misty sky)
+ACCENT_ALT="506878"    # Secondary accent — deep slate blue
+ACCENT_LIGHT="a8c0cc"  # Light accent — pale misty blue (moonlit fog)
+
+# ── Semantic colors ──────────────────────────────────────────────────────────
+URGENT="8a4a4a"        # Error / urgent — muted dark crimson
+URGENT_DARK="6a3030"   # Darker urgent — deep muted red
+WARNING="8a7a50"       # Warning — muted moss gold
+INFO="506880"          # Info — deep slate blue
+GREEN="4a6858"         # ANSI green — muted dark forest green
+CYAN_TERM="6a8890"     # ANSI cyan — muted teal
+
+# ── Hyprland borders (Hyprland RRGGBBAA hex format) ─────────────────────────
+BORDER1="7a9ab0ee"          # Active border gradient start — misty steel blue
+BORDER2="a8c0ccee"          # Active border gradient end — pale moonlit silver
+BORDER_INACTIVE="22282888"  # Inactive border — near-black slate
+
+# ── Wallpaper ────────────────────────────────────────────────────────────────
+WALLPAPER="$HOME/Pictures/wallpapers-jakoolit/wallpapers/Dark_Nature.png"

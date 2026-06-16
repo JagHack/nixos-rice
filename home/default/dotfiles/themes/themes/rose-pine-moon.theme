@@ -1,0 +1,46 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Theme: Rosé Pine Moon
+#  Source: https://rosepinetheme.com/palette/ingredients/?variant=moon
+# ─────────────────────────────────────────────────────────────────────────────
+THEME_NAME="Rosé Pine Moon"
+
+# ── Background levels (darkest → lightest) ───────────────────────────────────
+BG_BASE="191724"       # Rose Pine base — darkest (play btn text bg)
+BG_DARK="140f19"       # Waybar / swaync / AGS window background
+BG="1f1d2e"            # Kitty terminal background
+BG_SURFACE="1e162a"    # Swaync container surface
+BG_MEDIUM="23192d"     # Waybar modules / AGS panels
+BG_BLUR="1a1423"       # Blur overlay (waybar blur_bg, AGS notification items)
+BG_HIGH="2c203c"       # Elevated surface (swaync notification cards)
+BG_HIGHEST="3a2a4c"    # Highest elevation (swaync action buttons)
+BG_HOVER="383450"      # Hover state (AGS buttons)
+BG_ACTIVE="464164"     # Pressed/active state (AGS buttons)
+
+# ── Text / surface colors ────────────────────────────────────────────────────
+SELECTION="44415a"     # Selection highlight
+OVERLAY="403d52"       # Outline / overlay
+BLACK_DIM="393552"     # ANSI terminal black (color0)
+FG="e0def4"            # Main foreground
+FG_MUTED="6e6a86"      # Inactive / muted text
+FG_SUBTLE="908caa"     # Subtle body text (AGS notification body)
+
+# ── Accent colors ────────────────────────────────────────────────────────────
+ACCENT="c4a7e7"        # Primary accent — lavender
+ACCENT_ALT="957fb8"    # Secondary accent — muted violet
+ACCENT_LIGHT="d4bef0"  # Light accent — play btn hover
+
+# ── Semantic colors ──────────────────────────────────────────────────────────
+URGENT="eb6f92"        # Error / urgent — rose
+URGENT_DARK="c45070"   # Darker urgent — close btn active
+WARNING="f6c177"       # Warning — gold
+INFO="9ccfd8"          # Info — pine (teal)
+GREEN="3e8fb0"         # ANSI green — foam
+CYAN_TERM="ea9a97"     # ANSI cyan — rose (warm pink in Rose Pine)
+
+# ── Hyprland borders (Hyprland RRGGBBAA hex format) ─────────────────────────
+BORDER1="c4a7e7ee"     # Active border gradient start — lavender
+BORDER2="9ccfd8ee"     # Active border gradient end — pine
+BORDER_INACTIVE="403d52aa"  # Inactive border — overlay
+
+# ── Wallpaper ────────────────────────────────────────────────────────────────
+WALLPAPER="$HOME/Pictures/wallpapers-jakoolit/wallpapers/purpled-night.jpg"
