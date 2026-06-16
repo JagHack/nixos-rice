@@ -81,7 +81,7 @@ bootloader for your firmware (UEFI/BIOS), patches out the NVIDIA block on non-NV
 machines, and runs `nixos-install`. Point it at your own fork:
 
 ```sh
-FLAKE_REPO=https://github.com/<you>/nixos-rice sudo -E bash install.sh
+FLAKE_REPO=https://github.com/JagHack/nixos-rice sudo -E bash install.sh
 ```
 
 ## Notes
